@@ -1,0 +1,7 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+<a href="{% url 'post_new' %}"> New Post </a>
+{% for post in posts %}
+<a href="{{ post.get_absolute_url }}"> {{ post.title | linebreaks }} </a>
+{% endfor %}
+{% endblock content %}

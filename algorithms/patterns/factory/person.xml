@@ -1,0 +1,48 @@
+<persons>
+    <person>
+        <firstName>John</firstName>
+        <lastName>Smith</lastName>
+        <age>25</age>
+        <address>
+            <street>13 2nd Street</street>
+            <city>New York</city>
+            <state>NY</state>
+            <postalCode>10021</postalCode>
+        </address>
+        <phoneNumbers>
+            <phoneNumber type="home">212 555-1234</phoneNumber>
+            <phoneNumber type="fax">646 555-4567</phoneNumber>
+        </phoneNumbers>
+        <gender>male</gender>
+    </person>
+    <person>
+        <firstName>Jimy</firstName>
+        <lastName>Liar</lastName>
+        <age>25</age>
+        <address>
+            <street>18 2nd Street</street>
+            <city>New York</city>
+            <state>NY</state>
+            <postalCode>10021</postalCode>
+        </address>
+        <phoneNumbers>
+            <phoneNumber type="home">212 555-1234</phoneNumber>
+        </phoneNumbers>
+        <gender>male</gender>
+    </person>
+    <person>
+        <firstName>Patty</firstName>
+        <lastName>Liar</lastName>
+        <age>20</age>
+        <address>
+            <street>18 2nd Street</street>
+            <city>New York</city>
+            <state>NY</state>
+            <postalCode>10021</postalCode>
+        </address>
+        <phoneNumbers>
+            <phoneNumber type="home">212 555-1234</phoneNumber>
+        </phoneNumbers>
+        <gender>female</gender>
+    </person>
+</persons>
