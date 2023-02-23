@@ -1,3 +1,4 @@
+from primes import async_is_prime, is_prime
 import asyncio
 import itertools
 
@@ -11,6 +12,8 @@ async def supervisor() -> int:
     spinner = asyncio.create_task(coro=spin('thinking!'))
     print(f'spinner object: {spinner}')
     result = await slow()
+    # result = await async_is_prime(5_000_111_000_222_021)
+    # result = is_prime(5_000_111_000_222_021)
     spinner.cancel()
     return result
 

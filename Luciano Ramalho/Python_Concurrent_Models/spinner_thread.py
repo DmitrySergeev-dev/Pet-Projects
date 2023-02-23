@@ -1,7 +1,7 @@
 import itertools
 import time
 from threading import Thread, Event
-
+from primes import is_prime
 
 def spin(msg: str, done: Event):
     for char in itertools.cycle(r'\|/-'):
@@ -24,6 +24,7 @@ def supervisor() -> int:
     print(f'spinner object: {spinner}')
     spinner.start()
     result = slow()
+    # result = is_prime(5_000_111_000_222_021)
     done.set()
     spinner.join()
     return result

@@ -1,7 +1,7 @@
 import itertools
 import time
 from multiprocessing import Process, Event, synchronize
-
+from primes import is_prime
 
 def spin(msg: str, done: synchronize.Event):
     for char in itertools.cycle(r'\|/-'):
